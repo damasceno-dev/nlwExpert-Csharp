@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/tests/UseCases.Test/UseCases.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/RocketSeatAuction.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/RocketSeatAuction.API.csproj",
+        "projectName": "RocketSeatAuction.API",
+        "projectPath": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/RocketSeatAuction.API.csproj",
+        "packagesPath": "/Users/fernandodamasceno/.nuget/packages/",
+        "outputPath": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fernandodamasceno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.312/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/tests/UseCases.Test/UseCases.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/tests/UseCases.Test/UseCases.Test.csproj",
+        "projectName": "UseCases.Test",
+        "projectPath": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/tests/UseCases.Test/UseCases.Test.csproj",
+        "packagesPath": "/Users/fernandodamasceno/.nuget/packages/",
+        "outputPath": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/tests/UseCases.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fernandodamasceno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/RocketSeatAuction.API.csproj": {
+                "projectPath": "/Users/fernandodamasceno/Coding/CursosRocketSeat/nlw14Expert/TrilhaC#/Project/RocketSeatAuction/src/RocketSeatAuction.API/RocketSeatAuction.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.4.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

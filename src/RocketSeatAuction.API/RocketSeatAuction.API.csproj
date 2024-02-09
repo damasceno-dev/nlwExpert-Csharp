@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.15" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="UseCases\" />
+    <None Remove="UseCases\Auctions\" />
+    <None Remove="UseCases\Auctions\GetCurrent\" />
+    <None Remove="Entities\" />
+    <None Remove="Repositories\" />
+    <None Remove="Enums\" />
+    <None Remove="Comunication\" />
+    <None Remove="Comunication\Requests\" />
+    <None Remove="Comunication\Responses\" />
+    <None Remove="Filters\" />
+    <None Remove="UseCases\Offers\" />
+    <None Remove="UseCases\Offers\CreateOffer\" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\DataAccess\" />
+    <None Remove="Contracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\Auctions\" />
+    <Folder Include="UseCases\Auctions\GetCurrent\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Comunication\" />
+    <Folder Include="Comunication\Requests\" />
+    <Folder Include="Comunication\Responses\" />
+    <Folder Include="Filters\" />
+    <Folder Include="UseCases\Offers\" />
+    <Folder Include="UseCases\Offers\CreateOffer\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\DataAccess\" />
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+</Project>
